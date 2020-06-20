@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Temp 1"
+title: "Flag 6: Parallel Ninja"
+author: "Default"
 ---
 
 # This is a temporary file
