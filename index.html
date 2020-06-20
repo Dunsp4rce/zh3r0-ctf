@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {% for cat in site.categories %}
-    <h1>{{ cat.title }}</h1>
+    <h1>{{ cat | first }}</h1>
   {% endfor %}
   {% for post in site.posts %}
     <article class="post">
