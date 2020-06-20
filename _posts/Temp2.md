@@ -1,0 +1,8 @@
+---
+layout: post
+title: Temp 2
+---
+
+# This is a another temporary file
+
+With some more temporary content
