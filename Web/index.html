@@ -3,16 +3,6 @@ layout: default
 ---
 
 <div class="posts">
-  <!-- {% for cat in site.categories['web'] %}
-    <h1>{{ cat | first }}</h1>
-    {% for post in cat[1] %}
-      <article class="post">
-        <ul>
-          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-        </ul>
-      </article>
-    {% endfor %}
-  {% endfor %} -->
   {% for post in site.categories.Web %}
     <article class="post">
 
