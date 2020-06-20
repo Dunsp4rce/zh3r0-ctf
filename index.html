@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-  {% for cat in page.categories %}
+  {% for cat in site.categories %}
     <h1>{{ cat }}</h1>
   {% endfor %}
   {% for post in site.posts %}
