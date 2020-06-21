@@ -1,9 +1,13 @@
 ---
 layout: post
 title: "Welcome to Phase 2"
-author: "Anonymous"
+author: "vishalananth"
 ---
 
-# This is a temporary file
+## Question
 
-With temporary content
+There is a shell on our discord you can get the flag from there. Use 'man' if you are stuck.
+
+## Solution
+
+Go to the mentioned discord channel, type ```ls``` and ```cat welcome.txt``` to get the flag.
