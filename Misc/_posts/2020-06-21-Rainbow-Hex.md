@@ -16,7 +16,7 @@ Opening the zip will give us a video file, which conatins the washing hands vide
 ffmpeg -i washing_hands.mp4 image-%07d.png
 ```
 An example frame:
-</br></br>![alt text](images/frame001.png)</br></br>
+</br></br>![alt text]({{ site.baseurl }}/images/frame001.png)</br></br>
 
 The video is split into nearly 600 frames but unfortunately none of the frames contained the flag or anything related. So it was time to find some other way. 
 <br><br>

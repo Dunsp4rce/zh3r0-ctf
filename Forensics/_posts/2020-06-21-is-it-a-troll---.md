@@ -11,7 +11,7 @@ there is baby key and baby hide the key somewhere. Can you help his father to fi
 ## Solution
 
 We are given a JPG file:
-</br></br>![alt text](images/Trollface.jpeg)</br></br>
+</br></br>![alt text]({{ site.baseurl }}/images/Trollface.jpeg)</br></br>
 
 First, I tried inspecting the file with stegsolve.jar and got nothing useful. Running exiftool:
 
@@ -27,7 +27,7 @@ steghide extract -sf Trollface.jpeg
 ```
 
 We get a troll.zip, which contains the following image:
-</br></br>![alt text](images/troll.png)</br></br>
+</br></br>![alt text]({{ site.baseurl }}/images/troll.png)</br></br>
 
 Running zsteg on the image:
 

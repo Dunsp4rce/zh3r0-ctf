@@ -15,11 +15,11 @@ We are given a file named image, without any extension and running the file comm
 xxd image
 ```
 and got the following result:
-</br></br>![alt text](images/hex.png)</br></br>
+</br></br>![alt text]({{ site.baseurl }}/images/hex.png)</br></br>
 
 We can see the signature bytes **JFIF** which are the signature bytes of a jpg file. But instead of being the first bytes of the file, it was in the end. So, the given file is a jpg file, but reversed completely.
 So I wrote a python script - reversejpg.py to reverse the file byte by byte and constuct the new jpg. After reversing we got the following image:
-</br></br>![alt text](images/modified_image.jpg)</br></br>
+</br></br>![alt text]({{ site.baseurl }}/images/modified_image.jpg)</br></br>
 
 As we can see here, we got an image with the words **Stego** which clearly indicates something to do with Image Steganography. So I tried opening the tool in stegsolve.jar
 to check if there is anything hidden within the image, but nothing useful. Next, I ran exiftool on the image:
